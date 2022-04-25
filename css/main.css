@@ -1,0 +1,14 @@
+/* This is a css commented line.
+Isn't it wonderful? (͡° ͜ʖ ͡°) */
+body {
+    font-family: 'Water Brush', cursive, mono, serif, sans-serif;
+}
+p {
+    font-size: 50px;
+}
+.purple {
+    color: purple;
+}
+#fine-print {
+    font-size: 10px;
+}
