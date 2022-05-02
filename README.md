@@ -1,2 +1,2 @@
 Link to live site;
-https://gupples.github.io/WRR/site-plan-rafting.html
+https://gupples.github.io/WWR/site-plan-rafting.html
