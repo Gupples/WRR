@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+
+
 *,
 *:before,
 *:after {
@@ -24,6 +27,7 @@ nav a {
     text-align: center;
     color: var(--yellow);
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -43,6 +47,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: var(--blue);
@@ -50,6 +58,12 @@ main section {
 
 body {
     background-color: var(--yellow);
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -61,6 +75,10 @@ header {
     background-color: var(--blue);
     color: var(--purple);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -72,12 +90,21 @@ header {
     width: 100%;
 }
 
+#logo-link {
+    padding-top: 5px;
+}
+
 .home-title {
     color: var(--blue);
+    font-family: 'Asul', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -86,18 +113,33 @@ header {
 
 .msg {
     background-color: var(--red);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: var(--purple);
+    font-family: 'Asul', sans-serif;
 }
 
 .msg p {
     color: var(--purple);
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.card-img {
+    border: 10px solid var(--red);
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 footer {
     background-color: var(--blue);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -115,4 +157,14 @@ footer h3 {
 
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+/* footer color makes it hard to see the button borders, so I added a border for hovering. */
+footer .social img:hover {
+    border: 3px solid var(--red);
+    padding-top: 0;
 }
