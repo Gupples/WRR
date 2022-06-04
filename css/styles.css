@@ -286,6 +286,12 @@ footer .social img:hover {
         margin-top: 0;
         color: var(--blue);
     }
+
+    #hero-msg h1, #hero-msg h4 {
+        text-align: center;
+        color: var(--red);
+        font-size: xx-large;
+    }
     #hero-msg h4 {
         display: none;
     }
@@ -297,7 +303,7 @@ footer .social img:hover {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: var(--blue);
     }
     .home-title h1 {
         color: var(--blue);
