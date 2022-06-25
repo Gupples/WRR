@@ -108,6 +108,12 @@ header {
     grid-template-columns: 150px auto;
 }
 
+.subpage-header {
+    background-color: var(--blue);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 
 .book, .join {
     background-color: var(--blue);
