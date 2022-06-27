@@ -256,7 +256,24 @@ footer .social img:hover {
     padding-top: 0;
 }
 
+.questions {
+    text-align: center;
+    justify-content: center;
+    grid-column: 1/11;
+    color: var(--blue);
+}
 
+.question {
+    margin: 0 auto;
+    padding: 0%;
+}
+.question:after {
+    content: '\02795';
+}
+
+.active:after {
+    content: '\2796';
+}
 
 @media screen and (max-width: 900px) {
     * {
